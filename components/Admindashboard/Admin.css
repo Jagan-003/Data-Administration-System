@@ -1,0 +1,119 @@
+.dashboard-container {
+    width: 154vh;
+    height: 102vh;
+    margin: -20px auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.upload-content {
+    margin-bottom: 20px;
+}
+
+.upload-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.upload-dropzone {
+    border: 2px dashed #ccc;
+    border-radius: 10px;
+    padding: 40px;
+    text-align: center;
+    cursor: pointer;
+    transition: border-color 0.3s ease;
+}
+
+.upload-dropzone.dragging {
+    border-color: #007bff;
+}
+
+.upload-icon {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+.browse-link {
+    color: #007bff;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.file-metadata {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.file-metadata p {
+    margin: 5px 0;
+}
+
+.datasets-table {
+    margin-top: 20px;
+    flex-grow: 1;
+}
+
+.dashboard-table-container {
+    max-height: 500px;
+    overflow-y: auto;
+}
+
+.dashboard-table-header {
+    background-color: #007bff;
+    padding: 10px;
+}
+
+.dashboard-table-header-cell {
+    font-weight: bold;
+    color: #fff;
+}
+
+.dashboard-button {
+    margin-left: 10px;
+    position: relative;
+}
+
+.view-button {
+    margin-right: 10px;
+    position: relative;
+}
+.welcome-message {
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+  
+}
+
+.dashboard-button, .view-button {
+    position: static;
+    margin-left: 10px;
+    transition: transform 0.2s ease;
+}
+
+.dashboard-button:hover, .view-button:hover {
+    transform: scale(1.05);
+}
+.file-metadata {
+    margin-top: 20px;
+    text-align: center;  /* Center the button */
+}
+
+.file-metadata button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.file-metadata button:hover {
+    background-color: #0056b3;
+}
